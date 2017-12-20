@@ -1,6 +1,6 @@
 FROM golang:alpine
 
-ENV TERRAFORM_VERSION=0.10.7
+ENV TERRAFORM_VERSION=0.11.1
 
 RUN apk update
 RUN apk upgrade
